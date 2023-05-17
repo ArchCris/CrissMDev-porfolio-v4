@@ -30,6 +30,19 @@
   position: relative;
   margin-left: 1.5rem;
 }
+.navbar__main{
+  display: flex;
+}
+.navbar__main:not(hover) img{
+  transition: all 800ms ease-out;
+  transform: rotate(0deg);
+}
+.navbar__main:hover img{
+  cursor: pointer;
+  transition: all 800ms ease-out;
+  filter: drop-shadow(0 0 5px grey);
+  transform: rotate(360deg);
+}
 /*Hover effect*/
 .navbar__link::before{
   position: absolute;
@@ -115,6 +128,7 @@
     margin-left: 0rem;
     color: var(--main-plain);
     font-weight: 600;
+    font-size: var(--font-size2);
   }
   .active-link{
     color: var(--main-plain);

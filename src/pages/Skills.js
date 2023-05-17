@@ -23,7 +23,7 @@ import php from '../images/logos/logos-light/php.png'
 const Skills = () => {
   return (
     <div className='skills__conteiner' id='Skills'>
-       <h3 className='skills__conteiner-title'>Skills</h3>
+       <h3 className='skills__title'>Skills</h3>
       <div className='skills__conteiner-display'>
         
         <img className='skills__logo' alt='html5' src={html}></img>

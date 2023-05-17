@@ -8,12 +8,12 @@
   align-items: flex-start;
   font-family: var(--font-fam);
 }
-.skills__conteiner-title{
-  font-size: var(--font-size5);
+.skills__title{
+  font-size: var(--font-size4);
   position: relative;
   margin-bottom: 2rem;
 }
-.skills__conteiner-title::after{
+.skills__title::after{
   position: absolute;
   content: '';
   bottom: 0;

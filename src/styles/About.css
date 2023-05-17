@@ -8,6 +8,20 @@
   align-items: flex-start;
   font-family: var(--font-fam);
 }
+.about__title{
+  font-size: var(--font-size4);
+  position: relative;
+  margin-bottom: 2rem;
+}
+.about__title::after{
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  background-color: var(--main-color);
+}
 .about__bottom{
   height: auto;
   width: 100%;
@@ -20,6 +34,7 @@
   animation: moving 10s linear infinite;
   border: solid 2px var(--font-color);
   filter: drop-shadow(0 0 10px var(--font-color));
+  margin-left: 4rem;
 }
 
 @keyframes moving {
@@ -43,7 +58,6 @@
   }
   .about__secB-img{
     width: 50%;
+    margin: 4rem 0 0 0;
   }
- 
-  
 }

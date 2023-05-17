@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
 :root{
   /*GNRL*/
@@ -13,7 +13,7 @@
   /*FONTS*/
   --font-color:rgb(49,51,53);
   --font-fam: 'Poppins', sans-serif;
-  --font-fam-special:'Righteous', cursive;
+  --font-fam-special:'Bungee Shade', cursive;
   --font-size1: 1rem;
   --font-size2: 1.5rem;
   --font-size3: 2rem;
