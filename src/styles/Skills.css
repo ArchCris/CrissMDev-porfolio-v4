@@ -1,4 +1,55 @@
 .skills__conteiner{
   min-height: 100vh;
   width: 100%;
+  padding: var(--pad-desk);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: var(--font-fam);
+}
+.skills__conteiner-title{
+  font-size: var(--font-size5);
+  position: relative;
+  margin-bottom: 2rem;
+}
+.skills__conteiner-title::after{
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  background-color: var(--main-color);
+}
+.skills__conteiner-display{
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(3,1fr);
+  justify-items: center;
+  align-items: center;
+}
+.skills__logo{
+  transition: all 600ms ease;
+  filter: drop-shadow(0 0 5px rgb(200, 200, 200));
+  width: 60%;
+  margin: 1rem;
+}
+.skills__logo:hover{
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 760px) {
+  .skills__conteiner{
+    padding: var(--pad-mobile);
+  }
+  .skills__conteiner-display{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6,1fr);
+  }
+  .skills__logo{
+    margin: .5rem;
+  }
 }
