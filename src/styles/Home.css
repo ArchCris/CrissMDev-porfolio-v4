@@ -7,12 +7,13 @@
   justify-content: space-around;
   align-items: center;
   font-family: var(--font-fam);
+  z-index: 1;
 }
 .home__name{
   font-size: var(--font-size5);
 }
 .home__message{
-  font-size: var(--font-size2);
+  font-size: var(--font-size3);
   font-family: var(--font-fam-special);
   color: var(--main-color);
 }

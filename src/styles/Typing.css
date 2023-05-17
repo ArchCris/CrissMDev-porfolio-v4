@@ -2,10 +2,10 @@
   margin: 1rem 0;
 }
 .typing__text{
-  font-size: var(--font-size2);
+  font-size: var(--font-size3);
 }
 .typing__span{
-  font-size: var(--font-size2);
+  font-size: var(--font-size3);
   animation: titling 1s linear infinite;
 }
 @keyframes titling {
@@ -21,5 +21,16 @@
   100%{
     opacity: 0;
   }
-  
+}
+
+@media only screen and (max-width: 760px) {
+  .typing__conteiner{
+    margin: .5rem 0;
+  }
+  .typing__text{
+    font-size: var(--font-size3);
+  }
+  .typing__span{
+    font-size: var(--font-size3);
+  }
 }

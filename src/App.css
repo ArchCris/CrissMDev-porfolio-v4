@@ -1,5 +1,5 @@
 .App {
-  height: 400vh;
+  height: auto;
   width: 100%;
   position: relative;
   background-color: var(--main-plain);
