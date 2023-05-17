@@ -1,0 +1,8 @@
+.projectCard__conteiner{
+  min-height: 40vh;
+  width: 100%;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}

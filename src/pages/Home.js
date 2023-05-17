@@ -12,7 +12,7 @@ const Home = () => {
       <div className='home__secA'>
         <h2 className='home__name'>Cristian Masci</h2>
         <Typing/>
-        <h1 className='home__message'>Let's work together !</h1>
+        <h1 className='home__message'>Let's work together!</h1>
       </div>
       <div className='home__secB'>
         <Player className='home__coffee' autoplay loop src={hotCoffee}/>
