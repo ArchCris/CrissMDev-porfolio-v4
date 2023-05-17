@@ -8,7 +8,7 @@
   font-family: var(--font-fam);
 }
 .home__name{
-  font-size: var(--font-size4);
+  font-size: var(--font-size5);
 }
 .home__message{
   font-family: var(--font-fam-special);
@@ -24,7 +24,10 @@
     padding: var(--pad-mobile);
   }
   .home__name{
-    font-size: var(--font-size3);
+    font-size: var(--font-size4);
+  }
+  .home__message{
+    font-size: var(--font-size2);
   }
   
 }

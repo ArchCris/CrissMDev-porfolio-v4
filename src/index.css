@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 :root{
   /*GNRL*/
   --main-color: rgb(10,119,181);
@@ -12,11 +13,12 @@
   /*FONTS*/
   --font-color:rgb(49,51,53);
   --font-fam: 'Poppins', sans-serif;
-  --font-fam-special: 'Satisfy', cursive;
+  --font-fam-special:'Righteous', cursive;
   --font-size1: 1rem;
-  --font-size2: 2rem;
-  --font-size3: 2.5rem;
-  --font-size4: 3.5rem;
+  --font-size2: 1.5rem;
+  --font-size3: 2rem;
+  --font-size4: 2.5rem;
+  --font-size5: 3.5rem;
   /*CONFIG*/
   --pad-desk:10vh 8rem 10vh 8rem;
   --pad-mobile:10vh 1rem 10vh 1rem;

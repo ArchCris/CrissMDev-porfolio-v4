@@ -2,10 +2,10 @@
   margin: .5rem 0;
 }
 .typing__text{
-  font-size: var(--font-size1);
+  font-size: var(--font-size2);
 }
 .typing__span{
-  font-size: var(--font-size1);
+  font-size: var(--font-size2);
   animation: titling 1s linear infinite;
 }
 @keyframes titling {

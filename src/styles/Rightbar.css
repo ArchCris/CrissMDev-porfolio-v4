@@ -25,3 +25,14 @@
 .rightbar__active{
   transform: rotate(45deg);
 }
+@media screen and (max-width: 760px) {
+  .rightbar__conteiner{
+    right: 50%;
+    bottom: 2rem;
+    transform: translateX(50%);
+    flex-direction: row;
+  }
+  .rightbar__index{
+    margin: 0rem 1rem;
+  }
+}

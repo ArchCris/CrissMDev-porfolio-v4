@@ -29,5 +29,7 @@
   box-shadow: 0 0 4px var(--font-color);
 }
 @media screen and (max-width: 760px) {
-  
+  .leftbar__conteiner{
+    display: none;
+  }
 }
