@@ -1,0 +1,27 @@
+.rightbar__conteiner{
+  position: fixed;
+  right: 2rem;
+  bottom: 50%;
+  transform: translateY(50%);
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.rightbar__index{
+  margin: 1rem 0;
+  height: .75rem;
+  width: .75rem;
+  border: solid 2px var(--font-color);
+  transition: all 400ms ease;
+  background-color: transparent;
+}
+.rightbar__index:hover{
+  box-shadow: 0 0 4px var(--font-color);
+  cursor: pointer;
+}
+.rightbar__active{
+  transform: rotate(45deg);
+}

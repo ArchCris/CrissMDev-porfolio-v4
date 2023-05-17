@@ -1,0 +1,30 @@
+.home__conteiner{
+  min-height: 100vh;
+  width: 100%;
+  padding: var(--pad-desk);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: var(--font-fam);
+}
+.home__name{
+  font-size: var(--font-size4);
+}
+.home__message{
+  font-family: var(--font-fam-special);
+  color: var(--main-color);
+}
+.home__coffee{
+  width: 300px;
+}
+
+@media only screen and (max-width: 760px) {
+  .home__conteiner{
+    flex-direction: column;
+    padding: var(--pad-mobile);
+  }
+  .home__name{
+    font-size: var(--font-size3);
+  }
+  
+}

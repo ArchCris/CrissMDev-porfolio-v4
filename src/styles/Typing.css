@@ -1,0 +1,25 @@
+.typing__conteiner{
+  margin: .5rem 0;
+}
+.typing__text{
+  font-size: var(--font-size1);
+}
+.typing__span{
+  font-size: var(--font-size1);
+  animation: titling 1s linear infinite;
+}
+@keyframes titling {
+  0%{
+    opacity: 1;
+  }
+  49%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+  
+}
