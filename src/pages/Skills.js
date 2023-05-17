@@ -25,28 +25,81 @@ const Skills = () => {
     <div className='skills__conteiner' id='Skills'>
        <h3 className='skills__title'>Skills</h3>
       <div className='skills__conteiner-display'>
-        
-        <img className='skills__logo' alt='html5' src={html}></img>
-        <img className='skills__logo' alt='css' src={css}></img>
-        <img className='skills__logo' alt='js' src={js}></img>
-        <img className='skills__logo' alt='Bootstrap' src={boot}></img>
-        <img className='skills__logo' alt='Sass' src={sass}></img>
-        <img className='skills__logo' alt='React' src={react}></img>
 
-        <img className='skills__logo' alt='Photoshop' src={ps}></img>
-        <img className='skills__logo' alt='Figma' src={figma}></img>
-        <img className='skills__logo' alt='Node' src={node}></img>
-        <img className='skills__logo' alt='Next' src={next}></img>
-        <img className='skills__logo' alt='Firebase' src={firebase}></img>
-        <img className='skills__logo' alt='Mysql' src={mysql}></img>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='html5' src={html}></img>
+          <p className='skills__logo-name'>HTML</p>
+        </div>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='css' src={css}></img>
+          <p className='skills__logo-name'>CSS</p>
+        </div>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='js' src={js}></img>
+          <p className='skills__logo-name'>JS</p>
+        </div>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='Bootstrap' src={boot}></img>
+          <p className='skills__logo-name'>BOOTSTRAP</p>
+        </div>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='Sass' src={sass}></img>
+          <p className='skills__logo-name'>SASS</p>
+        </div>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='React' src={react}></img>
+          <p className='skills__logo-name'>REACT</p>
+        </div>
 
-        <img className='skills__logo' alt='Github' src={gitlab}></img>
-        <img className='skills__logo' alt='Netlify' src={netlify}></img>
-        <img className='skills__logo' alt='Redux' src={redux}></img>
-        <img className='skills__logo' alt='Zod' src={zod}></img>
-        <img className='skills__logo' alt='Zod' src={npm}></img>
-        <img className='skills__logo' alt='Zod' src={php}></img>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='Photoshop' src={ps}></img>
+          <p className='skills__logo-name'>PS</p>
+        </div>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='Figma' src={figma}></img>
+          <p className='skills__logo-name'>FIGMA</p>
+        </div>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='Node' src={node}></img>
+          <p className='skills__logo-name'>NODE</p>
+        </div>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='Next' src={next}></img>
+          <p className='skills__logo-name'>NEXT</p>
+        </div>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='Firebase' src={firebase}></img>
+          <p className='skills__logo-name'>FIREBASE</p>
+        </div>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='Mysql' src={mysql}></img>
+          <p className='skills__logo-name'>MYSQL</p>
+        </div>
 
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='Github' src={gitlab}></img>
+          <p className='skills__logo-name'>GITHUB</p>
+        </div>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='Netlify' src={netlify}></img>
+          <p className='skills__logo-name'>NETLIFY</p>
+        </div>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='Redux' src={redux}></img>
+          <p className='skills__logo-name'>REDUX</p>
+        </div>
+        <div className='skills__logo-cont' >
+          <img className='skills__logo' alt='Zod' src={zod}></img>
+          <p className='skills__logo-name'>ZOD</p>
+        </div>
+        <div className='skills__logo-cont' >
+        <img className='skills__logo' alt='Npm' src={npm}></img>
+          <p className='skills__logo-name'>NPM</p>
+        </div>
+        <div className='skills__logo-cont' >
+        <img className='skills__logo' alt='Php' src={php}></img>
+          <p className='skills__logo-name'>PHP</p>
+        </div>
       </div>
     </div>
   )
