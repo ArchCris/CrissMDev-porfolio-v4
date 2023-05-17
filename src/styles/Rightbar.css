@@ -25,6 +25,7 @@
 }
 .rightbar__active{
   transform: rotate(45deg);
+  background-color: var(--font-color);
 }
 @media screen and (max-width: 760px) {
   .rightbar__conteiner{

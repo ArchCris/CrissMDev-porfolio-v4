@@ -29,7 +29,11 @@
   justify-content: space-between;
   align-items: center;
 }
-.about__secB-img{
+.about__bottom-text{
+  font-size: var(--font-size2);
+  margin-bottom: 1rem;
+}
+.about__bottom-img{
   width: 40%;
   animation: moving 10s linear infinite;
   border: solid 2px var(--font-color);
@@ -53,11 +57,17 @@
   .about__conteiner{
     padding: var(--pad-mobile);
   }
+  .about__title{
+    font-size: var(--font-size3);
+  }
   .about__bottom{
     flex-direction: column;
   }
-  .about__secB-img{
-    width: 50%;
-    margin: 4rem 0 0 0;
+  .about__bottom-text{
+    font-size: var(--font-size1);
+  }
+  .about__bottom-img{
+    width: 60%;
+    margin: 2rem 0 0 0;
   }
 }
