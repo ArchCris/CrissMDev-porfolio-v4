@@ -12,6 +12,7 @@
   font-size: var(--font-size4);
   position: relative;
   margin-bottom: 2rem;
+  color: var(--font-color);
 }
 .skills__title::after{
   position: absolute;

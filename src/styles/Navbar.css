@@ -29,6 +29,7 @@
 .navbar__link{
   position: relative;
   margin-left: 1.5rem;
+  color: var(--font-color);
 }
 .navbar__main{
   display: flex;

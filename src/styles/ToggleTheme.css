@@ -1,7 +1,26 @@
 .toggleTheme__conteiner{
-  height: 15px;
-  width: 15px;
+  position: relative;
+  height: 20px;
+  width: 20px;
   margin-left: 1.5rem;
   border-radius: 7.5px;
-  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.toggleTheme__moon{
+  color: white;
+}
+@media only screen and (max-width: 760px) {
+  .toggleTheme__conteiner{
+    margin-left: 0rem;
+  }
+  .toggleTheme__sun{
+    color: white;
+  }
+  .toggleTheme__moon{
+    color: black;
+  }
 }

@@ -2,6 +2,7 @@
   margin: 1rem 0;
 }
 .typing__text{
+  color: var(--font-color);
   font-size: var(--font-size3);
 }
 .typing__span{

@@ -24,3 +24,11 @@
   --pad-desk:10vh 8rem 10vh 8rem;
   --pad-mobile:10vh 1rem 10vh 1rem;
 }
+
+[data-theme="dark"] {
+  /*GNRL*/
+  --main-color: rgb(70,119,181);
+  --main-plain: rgb(22, 23, 24);
+  /*FONTS*/
+  --font-color:rgb(246,245,246);
+}

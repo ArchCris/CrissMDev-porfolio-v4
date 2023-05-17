@@ -12,6 +12,7 @@
   font-size: var(--font-size4);
   position: relative;
   margin-bottom: 2rem;
+  color: var(--font-color);
 }
 .contact__title::after{
   position: absolute;
@@ -53,6 +54,7 @@
 }
 .contact__bottom-data-field svg{
   margin-right: 1rem;
+  color: var(--font-color);
 }
 
 

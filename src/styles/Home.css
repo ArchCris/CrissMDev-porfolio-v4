@@ -11,6 +11,7 @@
 }
 .home__name{
   font-size: var(--font-size5);
+  color: var(--font-color);
 }
 .home__message{
   font-size: var(--font-size3);

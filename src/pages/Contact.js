@@ -6,6 +6,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 
 
 const Contact = () => {
@@ -18,6 +19,7 @@ const Contact = () => {
           <span className='contact__bottom-data-field'><FontAwesomeIcon icon={faLinkedin} size="lg" /><a href='https://www.linkedin.com/in/arqcristianmasci'>/arqcristianmasci</a></span>
           <span className='contact__bottom-data-field'><FontAwesomeIcon icon={faGithub} size="lg" /><a href='https://github.com/ArchCris'>/ArchCris</a></span>
           <span className='contact__bottom-data-field'><FontAwesomeIcon icon={faEnvelope} /><a href = "mailto: arq.cristianmasci@gmail.com">arq.cristianmasci@gmail.com</a></span>
+          <span className='contact__bottom-data-field'><FontAwesomeIcon icon={faCopyright} size="lg" />Developed by CrissMDev</span>
         </div>
       </div>
     </div>

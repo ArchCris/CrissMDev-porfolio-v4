@@ -12,6 +12,7 @@
   font-size: var(--font-size4);
   position: relative;
   margin-bottom: 2rem;
+  color: var(--font-color);
 }
 .about__title::after{
   position: absolute;
@@ -32,6 +33,7 @@
 .about__bottom-text{
   font-size: var(--font-size2);
   margin-bottom: 1rem;
+  color: var(--font-color);
 }
 .about__bottom-img{
   width: 40%;
