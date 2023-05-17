@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSun } from '@fortawesome/free-solid-svg-icons'
 import { faMoon } from '@fortawesome/free-solid-svg-icons'
 
-const ToggleTheme = () => {
+const ToggleTheme = (props) => {
+
+  console.log(props.func)
 
   const[mode,setMode]=useState(false)
 
@@ -18,11 +20,16 @@ const ToggleTheme = () => {
       setMode(false)
       document.documentElement.setAttribute('data-theme','null');
     }
-    
+  }
+
+  const handleClick = () =>{
+    toggleMode()
+    props.func()
+
   }
 
   return (
-    <div onClick={()=>{toggleMode()}} className='toggleTheme__conteiner'>
+    <div onClick={()=>{handleClick()}} className='toggleTheme__conteiner'>
       {!mode ?
       <FontAwesomeIcon className='toggleTheme__sun' icon={faSun}/>
       :

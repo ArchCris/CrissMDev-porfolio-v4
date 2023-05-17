@@ -66,7 +66,7 @@
     flex-direction: column;
   }
   .about__bottom-text{
-    font-size: var(--font-size1);
+    font-size: var(--font-size1b);
   }
   .about__bottom-img{
     width: 60%;

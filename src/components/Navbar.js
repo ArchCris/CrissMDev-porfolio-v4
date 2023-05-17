@@ -39,7 +39,7 @@ const Navbar = () => {
               <Link onClick={()=>{toggleMenu()}}  className='navbar__link' activeClass="active-link" to="Contact" spy={true} smooth={true} offset={0} duration={500} >Contact</Link>
             </li>
             <li>
-              <ToggleTheme/>
+              <ToggleTheme func={toggleMenu}/>
             </li>
           </ul>
         </nav>
