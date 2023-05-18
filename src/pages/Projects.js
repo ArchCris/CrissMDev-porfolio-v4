@@ -10,7 +10,7 @@ const Projects = () => {
       <h3 className='projects__title' >Projects</h3>
       {projectData.map((project,key)=>{
         return(
-          <ProjectCard key={key} image={project.image} title={project.title}/> 
+          <ProjectCard key={key} image={project.image} title={project.title} description={project.description} url={project.url} repository={project.repository}/> 
         )
       })}
     </div>

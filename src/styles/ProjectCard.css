@@ -1,27 +1,88 @@
+/*CARD*/
 .projectCard__conteiner{
   height: fit-content;
   width: 100%;
   background-color: white;
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 1.5rem;
   margin-bottom: 2rem;
   display: flex;
+  transition: all 800ms ease;
+  filter: drop-shadow(0 0 5px rgb(200, 200, 200));
 }
+/*IMAGE SECTION*/
 .projectCard__secA{
   height: 100%;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .projectCard__image{
   width: 100%;
-  border-radius: .5rem;
+  border-radius: 0  0 .5rem .5rem;
   border: solid 1px rgb(202, 202, 202);
 }
+.projectCard__image-tab{
+  border-radius:.5rem .5rem 0 0;
+  width: 100%;
+  border: solid 1px rgb(202, 202, 202);
+  transform: translateY(1px);
+}
+/*DATA SECTION*/
 .projectCard__secB{
-  height: 100%;
+  height: auto;
   width: 50%;
   padding-left: 1rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
+.projectCard__title{
+  font-family: var(--font-fam-special);
+  font-size: var(--font-size2);
+  color: var(--font-color);
+}
+.projectCard__description{
+  font-size: var(--font-size1b);
+  color: var(--font-color);
+  padding: 0 2rem ;
+}
+.projectCard__buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.projectCard__button{
+  padding: .4rem;
+  border: solid 2px var(--font-color);
+  text-decoration: none;
+  border-radius: .6rem;
+  color: var(--font-color);
+  transition: all 400ms ease;
+}
+.projectCard__button svg{
+  margin-right: .4rem;
+}
+.projectCard__button:hover{
+  transform: translateY(-5px);
+  filter: drop-shadow(0 0 5px rgb(200, 200, 200));
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 760px) {
   .projectCard__conteiner{
     flex-direction: column;
@@ -30,16 +91,19 @@
     height: 50%;
     width: 100%;
   }
-  .projectCard__image{
-    width: 100%;
-    border-radius: .5rem;
-    border: solid 1px rgb(202, 202, 202);
-  }
   .projectCard__secB{
     height: 50%;
     width: 100%;
     padding-left: 0rem;
-    
+  }
+  .projectCard__title{
+    margin: 2rem 0;
+  }
+  .projectCard__description{
+    font-size: var(--font-size1);
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0;
   }
 
 }
