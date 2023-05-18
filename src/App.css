@@ -3,4 +3,5 @@
   width: 100%;
   position: relative;
   background-color: var(--main-plain);
+  transition: all 800ms ease;
 }
