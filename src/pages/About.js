@@ -7,11 +7,12 @@ const About = () => {
     <div className='about__conteiner' id='About'>
       <h3 className='about__title' >About</h3>
       <div className='about__bottom' >
-        <p className='about__bottom-text'>&nbsp;As a full-stack developer with an architectural background, I can say that I have found my passion coding. I love working on designing and creating digital products, from web pages to complete apps with databases, user authentication and API.
-        <br/><br/>
-        &nbsp;I had my first encounter with coding working with B.I.M. in architecture five years ago, since that moment I started my coding journey &#129299;, spending any free time learning new technologies, methodologies and enjoying every second of the IT world.
-        <br/><br/>
-        &nbsp;If you want to work with a passionate developer don't hesitate to contact me, to create innovative digital products together &#128522;.</p>
+        <p className='about__bottom-text'>&nbsp;As a full-stack developer with a background in architecture, I have discovered my true passion for coding. I thoroughly enjoy designing and creating digital products, ranging from web pages to comprehensive applications complete with databases, user authentication, and APIs.<br/><br/>
+
+        &nbsp;My journey into coding began five years ago when I first encountered coding while working with B.I.M. in architecture. Since then, I have been dedicated to continuously learning new technologies and methodologies, immersing myself in the world of IT. I enthusiastically devote my free time to expand my knowledge and skills.<br/><br/>
+
+        &nbsp;If you are seeking a passionate developer to collaborate on creating innovative digital products, please do not hesitate to contact me. Together, we can build something remarkable.
+        </p>
         <img className='about__bottom-img' alt='profile' src={photo}></img>
       </div>
     </div>
