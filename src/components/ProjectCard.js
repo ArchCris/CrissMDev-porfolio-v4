@@ -15,6 +15,13 @@ const ProjectCard = (props) => {
       </div>
       <div className='projectCard__secB'>
         <p className='projectCard__title'>{props.title}</p>
+        <div className='projectCard__stacks'>
+        {props.stacks.map((stack,key)=>{
+          return(
+            <img className='projectCard__stack' key={key} alt='stack' src={stack}></img>
+          )
+        })}
+        </div>
         <p className='projectCard__description'>&nbsp;{props.description}</p>
         <div className='projectCard__buttons'>
           <a className='projectCard__button' href={props.url}><FontAwesomeIcon icon={faChrome} size="lg" />LIVE</a>

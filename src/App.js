@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Rightbar from './components/Rightbar';
 import Leftbar from './components/Leftbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
