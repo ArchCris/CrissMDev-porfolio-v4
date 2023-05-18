@@ -1,18 +1,16 @@
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
 import '../styles/ToggleTheme.css'
+import { themeContext } from '../Context/ContextProvider'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSun } from '@fortawesome/free-solid-svg-icons'
 import { faMoon } from '@fortawesome/free-solid-svg-icons'
 
 const ToggleTheme = (props) => {
 
-  console.log(props.func)
-
-  const[mode,setMode]=useState(false)
+  const{mode,setMode}=useContext(themeContext)
 
   const toggleMode = () =>{
     let currentTheme = document.documentElement.getAttribute('data-theme');
-    console.log(currentTheme)
     if(currentTheme===true  || currentTheme===null || currentTheme==='null'){
       setMode(true)
       document.documentElement.setAttribute('data-theme','dark');
@@ -25,7 +23,6 @@ const ToggleTheme = (props) => {
   const handleClick = () =>{
     toggleMode()
     props.func()
-
   }
 
   return (

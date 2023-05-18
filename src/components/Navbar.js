@@ -3,8 +3,12 @@ import '../styles/Navbar.css'
 import { Link } from 'react-scroll'
 import ToggleTheme from './ToggleTheme'
 import logo from '../images/photo/Logo.png'
+import { useContext } from 'react'
+import { themeContext } from '../Context/ContextProvider'
 
 const Navbar = () => {
+
+  const{mode}=useContext(themeContext)
 
   const[clicked,setClicked]=useState()
 
@@ -20,7 +24,7 @@ const Navbar = () => {
   return (
     <div className='navbar__conteiner'>
       <div className='navbar__subconteiner'>
-        <Link className='navbar__main' to="Home" spy={true} smooth={true} offset={0} duration={500} ><img alt='logo' src={logo}></img></Link>
+        <Link className={mode ? 'navbar__main white' : 'navbar__main'} to="Home" spy={true} smooth={true} offset={0} duration={500} ><img alt='logo' src={logo}></img></Link>
         <nav className={clicked ? `navbar__menu displayed` : `navbar__menu`}>
           <ul className='navbar__menu-ul'>
             <li>

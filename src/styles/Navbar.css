@@ -44,6 +44,9 @@
   filter: drop-shadow(0 0 5px grey);
   transform: rotate(360deg);
 }
+.white{
+  filter: invert(1);
+}
 /*Hover effect*/
 .navbar__link::before{
   position: absolute;
