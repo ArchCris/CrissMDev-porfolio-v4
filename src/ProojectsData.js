@@ -39,8 +39,8 @@ export const projectData = [
   {
     title:'Tip App',
     image:tipApp,
-    url:'https://lic-bianca.netlify.app/',
-    repository:'https://github.com/ArchCris/lic-bian-web',
+    url:'https://tip-calculator-f-m.netlify.app',
+    repository:'https://github.com/ArchCris/11.tip-calculator-app-main',
     description:'App to calculate tips with percentages and between the amount of people, also with a reset button and automatic response'
   }
 ]
