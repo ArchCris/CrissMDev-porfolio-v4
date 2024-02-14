@@ -7,11 +7,17 @@ import { faChrome } from '@fortawesome/free-brands-svg-icons'
 
 
 const ProjectCard = (props) => {
+  console.log(props.status["live"])
   return (
     <div className='projectCard__conteiner'>
       <div className='projectCard__secA'>
           <img className='projectCard__image-tab'  alt='name' src={topTab}></img>
-          <img className='projectCard__image' alt='name' src={props.image}></img>
+          {props.image[0]==="image" ?
+          <img className='projectCard__image' alt='name' src={props.image[1]}></img>
+          :
+          <video className='projectCard__image' src={props.image[1]} loop autoPlay muted controls >
+            Tu navegador no admite el elemento <code>video</code>.
+          </video> }
       </div>
       <div className='projectCard__secB'>
         <p className='projectCard__title'>{props.title}</p>
@@ -24,8 +30,14 @@ const ProjectCard = (props) => {
         </div>
         <p className='projectCard__description'>&nbsp;{props.description}</p>
         <div className='projectCard__buttons'>
-          <a className='projectCard__button' href={props.url}><FontAwesomeIcon icon={faChrome} size="lg" />LIVE</a>
-          <a className='projectCard__button' href={props.repository}><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>GitHub</a>
+          {props.status["live"] ?
+          <a className='projectCard__button' href={props.url}><FontAwesomeIcon icon={faChrome} size="lg" />LIVE</a> :
+          <a className='projectCard__button disabled' href={props.url}><FontAwesomeIcon icon={faChrome} size="lg" />LIVE</a>
+          }
+          {props.status["github"] ?
+          <a className='projectCard__button' href={props.repository}><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>GitHub</a> :
+          <a className='projectCard__button disabled' href={props.repository}><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>GitHub</a>
+          }
         </div>
       </div>
     </div>

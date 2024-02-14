@@ -86,6 +86,11 @@
   filter: drop-shadow(0 0 5px rgb(200, 200, 200));
   cursor: pointer;
 }
+.disabled{
+  pointer-events: none;
+  color: rgba(211, 211, 211, 0.75);
+  border-color: rgba(211, 211, 211, 0.75);
+}
 
 @media only screen and (max-width: 760px) {
   .projectCard__conteiner{

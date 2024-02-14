@@ -4,7 +4,7 @@ import '../styles/Footer.css'
 const Footer = () => {
   return (
     <div className='footer__conteiner'>
-      <p>2023</p>
+      <p>2024</p>
     </div>
   )
 }

@@ -3,7 +3,9 @@ import permingeat from './images/projects/permingeat.jpg'
 import todoApp from './images/projects/todoApp.jpg'
 import tipApp from './images/projects/tipApp.jpg'
 import bianca from './images/projects/bianca.jpg'
-import movieApp from './images/projects/movieApp.jpg'
+/*Video instead image*/ 
+/*import movieApp from './images/projects/movieApp.jpg'*/
+import movieAppVideo from './images/projects/movieAppVideo.mp4'
 /*STACK*/
 import htmlbn from './images/logos/logo-b&n/htmlbn.png'
 import cssbn from './images/logos/logo-b&n/cssbn.png'
@@ -23,7 +25,8 @@ import herokubn from './images/logos/logo-b&n/herokubn.png'
 export const projectData = [
   {
     title:'Psychologist web',
-    image:bianca,
+    status:{live:true,github:true},
+    image:["image",bianca],
     stacks:[htmlbn,cssbn,nextbn],
     url:'https://lic-bianca.netlify.app/',
     repository:'https://github.com/ArchCris/lic-bian-web',
@@ -31,7 +34,8 @@ export const projectData = [
   },
   {
     title:'Movie App',
-    image:movieApp,
+    status:{"live":false,"github":true},
+    image:["video",movieAppVideo],
     stacks:[reactbn,cssbn,nodebn,mysqlbn],
     url:'https://movieapp-crissmdev-mysql.netlify.app',
     repository:'https://github.com/ArchCris/movieApp-react-mysql-v3',
@@ -39,15 +43,17 @@ export const projectData = [
   },
   {
     title:'Permingeat Studio',
-    image:permingeat,
+    status:{"live":true,"github":true},
+    image:["image",permingeat],
     stacks:[htmlbn,sassbn,jsbn],
-    url:'http://estudiopermingeat.com',
+    url:'https://permingeat-website.netlify.app',
     repository:'https://github.com/ArchCris/PermingeatWeb',
     description:"This website showcases the work of an Architecture studio based in Barcelona. Crafted using HTML, Sass, and a touch of JavaScript, the website reflects a minimalistic and aesthetic design philosophy. It provides a visually engaging experience to explore the studio's portfolio, projects, and services. Immerse yourself in the sleek and elegant world of architecture as you navigate through this captivating website."
   },
   {
     title:'To-do App',
-    image:todoApp,
+    status:{"live":true,"github":true},
+    image:["image",todoApp],
     stacks:[reactbn,cssbn],
     url:'https://todoapp-crissmdev.netlify.app',
     repository:'https://github.com/ArchCris/toDoApp',
@@ -56,7 +62,8 @@ export const projectData = [
   ,
   {
     title:'Tip App',
-    image:tipApp,
+    status:{"live":true,"github":true},
+    image:["image",tipApp],
     stacks:[htmlbn,cssbn,jsbn],
     url:'https://tip-calculator-f-m.netlify.app',
     repository:'https://github.com/ArchCris/11.tip-calculator-app-main',
